@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #201f29;
+    --secondary-color: #6c757d;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background: url('https://seu-site.com/imagem-de-cabecalho.jpg') center/cover no-repeat, linear-gradient(to bottom, var(--primary-color), #004085);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+  }
+  .project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  #theme-toggle {
+    z-index: 1000;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+
+  
